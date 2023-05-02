@@ -1,0 +1,156 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.backgroundImage img {
+  height: 99.2vh;
+}
+
+.leftHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerHome {
+  position: absolute;
+  margin-left: -600px;
+  margin-bottom: 700px;
+}
+
+.formHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #24221f;
+  padding: 48px 148px;
+  border-radius: 8px;
+  margin-left: 210px;
+  height: 70%;
+}
+
+.formHeader {
+  margin-bottom: 32px;
+}
+
+.formHeader span {
+  color: #afb6c2;
+}
+
+.formHeader .loginLogo {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.loginLogo h1 {
+  color: #d4ccb6;
+  margin-left: 12px;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.formLogin .formEmail {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.formEmail label {
+  color: #afb6c2;
+  margin-bottom: 2px;
+}
+
+.formEmail input {
+  background: transparent;
+  border: 3px solid #ffc632;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.formLogin .formPassword {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formPassword label {
+  color: #afb6c2;
+  margin-bottom: 2px;
+}
+
+.formPassword input {
+  background: transparent;
+  border: 2px solid #afb6c2;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.formDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.formChecks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formChecks input {
+  all: unset;
+  border: 1px solid #afb6c2;
+  border-radius: 2px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.formChecks input:checked {
+  background-color: #ffc632;
+}
+
+.formChecks span {
+  color: #afb6c2;
+  margin-left: 4px;
+}
+
+.formButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.formButton button {
+  width: 100%;
+  height: 54px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: #ffc632;
+}
+
+.formRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.formRegister span {
+  font-weight: 600;
+}
